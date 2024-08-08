@@ -1,6 +1,6 @@
 DOCKER_IMAGE_OWNER = 'free5gc'
 DOCKER_IMAGE_NAME = 'base'
-DOCKER_IMAGE_TAG = 'latest'
+DOCKER_IMAGE_TAG = 'stable'
 
 .PHONY: base
 all: base amf ausf nrf nssf pcf smf udm udr n3iwf upf chf webconsole
